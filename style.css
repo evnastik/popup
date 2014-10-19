@@ -1,0 +1,103 @@
+html, body, div, span, h1, h2, p, label, header, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-size: 100%;
+}
+a {                                      	
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+button {
+	margin: 0; 				
+	font-size: 100%; 			
+}
+header, hgroup {
+	display: block;
+}
+html {
+	overflow-y: scroll;
+}
+html, body {
+	height: 100%;
+}
+body {
+	line-height: 1;
+	color: #555;
+	text-align: left;
+	font: 13px 'Lucina Sans Unicode', Arial, sans-serif;
+}	
+a, a:visited {
+	color: #287fc3;
+	text-decoration: underline;
+}
+a:hover {
+	color: #287fc3;
+	text-decoration: none;
+}
+a:focus, a:active {
+	color: #287fc3;
+	text-decoration: underline;
+}
+ul {
+	list-style: none;
+}
+.wrapper {
+	margin: 0 auto;
+	min-height: 100%;
+	width: 1000px;
+}
+.open-popup {
+	cursor: pointer;
+	font-size: 18px;
+	top: 50%;
+	position:absolute;
+}
+.open-popup:hover {
+	color: #666;
+}
+.popup {
+	background: white;
+	border: 5px solid rgba(197, 192, 192, .7);
+	border-radius: 5px;
+	position: absolute;
+	min-width: 350px;
+	z-index: 999;
+}
+.popup-content {
+    line-height: 1.6;
+    padding: 50px;
+}
+.btn-close {
+	height: 17px;
+	right: 13px;
+	position: absolute;
+	top: 13px;
+	width: 70px;
+	color: #666;
+	font-size: 10px;
+	padding:3px;
+	padding-bottom:0px;
+}
+.btn-close:hover {
+	cursor: pointer;
+	background: #999;
+	border-radius:3px;
+}
+.hide-layout {
+	background: #000;
+	bottom: 0;
+	display: none;
+	height: 100%;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 998;
+}
